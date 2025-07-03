@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables - HTML</title>
+    <style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+    border: 2px solid black;
+  }
+
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+</style>
+</head>
+<body>
+    <h1>tables in html</h1>
+    <table>
+        <thead>
+            <tr>
+            <th> Name</th>
+            <th> Role</th>
+            <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Preeti</td>
+                <td> Software developer</td>
+                <td> 70k</td>
+            </tr>
+            <tr>
+                <td> Rohan</td>
+                 <td> cloud engnieer</td>
+                <td> 20k</td>
+            </tr>
+            <tr>
+                <td colspan="3">Thanks</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
